@@ -153,4 +153,8 @@ width:50%;
 .divh3{
 	display:flex;
 }
+.div4{
+	display:flex;
+	flex-direction:column;
+}
 
