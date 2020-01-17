@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +64,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+/* CSS code for great-idea project of UI-3*/
+
+*{
+	box-sizing: border-box;
+	border:1px solid grey;
+}
+
+.divh1{
+	display:flex;
+	justify-content: space-evenly;
+	width:70%;
+	margin:0 auto;
+}
+
+.headerdiv{
+	display: flex;
+	justify-content: center;
+	border:1px solid blue;
+	width:60%;
+	margin:0 auto;
+}
+
+.img{
+	display: flex;
+	justify-content: center;
+}
+
+.box{
+	display: flex;
+	width:20%;
+	flex-direction:column;
+	border:1px solid red;
+}
+
+.set1{
+	border:1px solid greenyellow;
+	display:flex;
+	justify-content: space-evenly;
+	width:70%;
+	margin:0 auto;
+	}
+
+.set2{
+	border:1px solid orangered;
+	display:flex;
+	justify-content: space-evenly;
+	width:70%;
+	margin:0 auto;
+}
+
+.set3{
+	border:1px solid blue;
+	display:flex;
+	justify-content: space-evenly;
+	width:70%;
+	margin:0 auto;
+}
+
+.navbox {
+	border:1px solid green;
+	width:30%;
+	justify-content: space-evenly;
+}
+
+.nav{
+	display:flex;
+	border:5px solid purple;
+	width:100%;
+	justify-content: space-evenly;
+	margin:0 auto;
+}
+
+.contact p{
+display:flex;
+width:50%;
+}
+
+.divimg{
+	display:flex;
+	width:50%;
+}
+
+
+.divh3{
+	display:flex;
+}
+
